@@ -17,18 +17,18 @@ export default {
     ChildrenC,
     ChildrenD
   },
-  provide() {
-    return {
-      theme: {
-        color: this.color
-      }
-    };
-  },
   // provide() {
   //   return {
-  //     theme: this
+  //     theme: {
+  //       color: this.color
+  //     }
   //   };
   // },
+  provide() {
+    return {
+      theme: this
+    };
+  },
   data() {
     return {
       color: "blue"

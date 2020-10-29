@@ -18,14 +18,15 @@
 import { mapState, mapActions } from 'vuex'
 
 export default {
-  computed: mapState({
-    products: state => state.products.all,
-  }),
-  // computed: {
-  //   products(){
-  //     return this.$store.state.products.all
-  //   }
-  // },
+  // computed: mapState({
+  //   // products: state => state.products.all,
+  //   products: state => state.all,
+  // }),
+  computed: {
+    products(){
+      return this.$store.state.products.all
+    }
+  },
   methods: mapActions('cart', [
     'addProductToCart'
   ]),

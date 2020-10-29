@@ -22,6 +22,9 @@ export default {
     type: {
       validator: function(value) {
         // 这个值必须匹配下列字符串中的一个
+        // return false
+        console.log(value)
+        console.log(["success", "warning", "danger"].includes(value))
         return ["success", "warning", "danger"].includes(value);
       }
     },

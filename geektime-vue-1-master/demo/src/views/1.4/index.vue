@@ -18,6 +18,7 @@ export default {
   data() {
     this.name = name;
     return {
+      // name: 'world',
       info: {},
       // info: {
       //   number: undefined
@@ -36,7 +37,8 @@ export default {
       console.log("this.info 发生了变化，但是并没有触发子组件更新", this.info);
     },
     handleListChange() {
-      this.list.push(1, 2, 3);
+      this.list.push(1);
+      // this.list[0] = 1;
       console.log("this.list 并没有发生变化，但是触发了子组件更新", this.list);
     }
   }

@@ -35,6 +35,10 @@ export default {
   },
   methods: {
     handleAreaCodeChange(e) {
+      console.log({
+        ...this.phoneInfo,
+        areaCode: e.target.value
+      })
       this.$emit("change", {
         ...this.phoneInfo,
         areaCode: e.target.value

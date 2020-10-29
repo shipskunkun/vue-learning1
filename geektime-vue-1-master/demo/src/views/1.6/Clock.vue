@@ -1,6 +1,6 @@
 <template>
   <div>
-    {{ log("render") }}
+    {{ log("render") }} ---
     {{ now }}
     <button @click="start = !start">{{ start ? "停止" : "开始" }}</button>
   </div>
