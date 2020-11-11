@@ -2,6 +2,21 @@
 
 [【No578】Vue开发从入门到实战视频教程](https://time.geekbang.org/course/intro/163?code=0AM7GydLwR8TeoJZcFupySnYEloFhj1dhLnNnyDjTQ4%3D)
 
+别人的：
+
+
+
+https://github.com/fengrixin/ant-design-vue-pro
+
+https://github.com/cjh1129434866/Ant-Design-Vue-Pro  这个最全
+
+https://github.com/wuyuxin2/Ant-Design-Vue-Pro
+
+https://github.com/fengrixin/ant-design-vue-pro
+
+https://github.com/CSYS-Yg/vueDevelopmentPractice
+
+
 
 唐金州
 一点资讯前端技术专家，Ant Design Vue 作者
