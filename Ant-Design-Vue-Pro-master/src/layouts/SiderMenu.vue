@@ -66,6 +66,12 @@ export default {
       openKeys: this.collapsed ? [] : this.openKeysMap[this.$route.path]
     };
   },
+  mounted() {
+    console.log('未筛选前的菜单', this.$router.options.routes)
+    console.log('筛选的菜单', this.menuData)
+    console.log('selectedKeys', this.selectedKeys)
+    console.log('openKeys', this.openKeys)
+  },
   methods: {
     toggleCollapsed() {
       this.collapsed = !this.collapsed;
